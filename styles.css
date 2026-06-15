@@ -963,6 +963,11 @@ img {
     aspect-ratio: 16 / 12;
   }
 
+  .detail-challenge-media {
+    border-radius: 24px;
+    overflow: hidden;
+  }
+
   .detail-fullscreen img {
     height: auto;
     aspect-ratio: 16 / 11;
