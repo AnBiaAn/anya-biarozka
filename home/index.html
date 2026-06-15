@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anya Biarozka</title>
+    <meta name="description" content="Anya Biarozka — Creative Director & Senior Product Designer specialising in product, brand, and AI automation. Berlin-based.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Anya Biarozka — Creative Director & Product Designer">
+    <meta property="og:description" content="Senior Product Designer specialising in product, brand, and AI automation. Berlin-based.">
+    <meta property="og:image" content="https://biarozka.xyz/assets/og-image.png">
+    <meta property="og:url" content="https://biarozka.xyz/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Anya Biarozka — Creative Director & Product Designer">
+    <meta name="twitter:image" content="https://biarozka.xyz/assets/og-image.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="/" data-content="brand">Anya Biarozka</a>
+      <nav class="nav-links" aria-label="Site sections">
+        <a href="/">Home</a><span>,&nbsp;</span>
+        <a href="/about">About</a><span>,&nbsp;</span>
+        <a href="#contact">Contact</a><span>.</span>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    </header>
+
+    <main id="home">
+      <section class="intro" aria-labelledby="intro-title">
+        <p id="intro-title" class="intro-line" data-content="heroKicker"></p>
+      </section>
+
+      <section class="image-statement image-statement--first" aria-label="Studio statement">
+        <img data-image="heroImage" alt="">
+        <h1 data-content="heroStatement"></h1>
+      </section>
+
+      <section class="clients" aria-labelledby="clients-title">
+        <div class="clients-copy">
+          <p id="clients-title" data-content="clientsLabel"></p>
+        </div>
+        <div class="client-marquee" aria-label="Client logos">
+          <div class="client-track" data-clients></div>
+        </div>
+      </section>
+
+      <section class="work-lede" id="projects">
+        <h2 data-content="workStatement"></h2>
+      </section>
+
+      <section class="project-grid" data-projects aria-label="Selected projects"></section>
+
+      <section class="image-statement recognition" aria-label="Recognition">
+        <img data-image="recognitionImage" alt="">
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="footer-top">
+        <a class="footer-talk" href="mailto:anya.biarozka@gmail.com">let's talk ↗</a>
+        <div class="footer-icons" data-footer-socials></div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-descriptor" data-content="footerDescriptor"></p>
+        <a class="footer-email" href="mailto:anya.biarozka@gmail.com" data-content="email"></a>
+      </div>
+    </footer>
+
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
