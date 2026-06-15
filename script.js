@@ -70,7 +70,7 @@
   if (projectGrid) {
     projectGrid.innerHTML = content.projects
       .map((project) => {
-        const href = `./project.html?project=${project.slug}`;
+        const href = `/${project.slug}/`;
         const wide = project.layout === "wide" ? " project-card--wide" : "";
         const arrow = project.comingSoon ? "" : " ↗";
         if (project.comingSoon) {
@@ -103,7 +103,8 @@
   const projectDetail = document.querySelector("[data-project-detail]");
   if (projectDetail) {
     const params = new URLSearchParams(window.location.search);
-    const slug = params.get("project") || content.projects[0].slug;
+    const pathSlug = window.location.pathname.replace(/\/+$/, '').split('/').pop();
+    const slug = params.get("project") || (content.projects.find((p) => p.slug === pathSlug) ? pathSlug : null) || content.projects[0].slug;
     const project = content.projects.find((p) => p.slug === slug) || content.projects[0];
     const related = project.relatedProjects
       ? project.relatedProjects.map((slug) => content.projects.find((p) => p.slug === slug)).filter(Boolean)
@@ -294,7 +295,7 @@
         <p>Discover more projects</p>
         <div class="detail-next-grid">
           ${related.map((item) => `
-            <a href="./project.html?project=${item.slug}">
+            <a href="/${item.slug}/">
               <img src="${item.image}" alt="${item.title}">
               <span>${item.title}</span>
               <span>${item.meta} ↗</span>

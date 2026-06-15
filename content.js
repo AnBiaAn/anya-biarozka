@@ -101,12 +101,12 @@ window.siteContent = {
       challenge2Title: "Research & Strategy",
       challenge2Copy: "Designed and led user research, analyzed responses, and identified key pain points and opportunities. Combined with market analysis, the insights informed product strategy, feature prioritization, and experience direction.",
       challenge2Image: "./assets/foormly-img-f-5.png",
-      relatedProjects: ["5sinne", "onchain-capital-allocation-handbook"],
+      relatedProjects: ["5sinne", "ocah"],
       gallery: ["./assets/foormly-img-f-2.png", "./assets/foormly-img-f-3.png"]
     },
     {
       slug: "5sinne",
-      relatedProjects: ["onchain-capital-allocation-handbook", "pulse-mindfulness"],
+      relatedProjects: ["ocah", "pulse-mindfulness"],
       title: "5Sinne",
       meta: "UX/UI, Interactive",
       image: "./assets/ixian-homepage.png",
@@ -130,7 +130,7 @@ window.siteContent = {
       gallery: ["./assets/5sinne-img-2.png", "./assets/5sinne-img-2b.png"]
     },
     {
-      slug: "onchain-capital-allocation-handbook",
+      slug: "ocah",
       title: "Onchain Capital Allocation Handbook",
       meta: "Editorial, Interactive",
       image: "./assets/ocah-cover.png",
