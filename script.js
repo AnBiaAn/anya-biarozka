@@ -42,7 +42,7 @@
   if (footerSocialsNode) {
     footerSocialsNode.innerHTML = content.socials
       .map((s) => `<a class="footer-icon" href="${s.href}" target="_blank" rel="noreferrer">${iconMap[s.label] || s.label}</a>`)
-      .join("") + `<a class="footer-icon" href="#" target="_blank">CV</a>`;
+      .join("") + `<a class="footer-icon" href="https://docs.google.com/document/d/16IysWOBCpIxDrQAFdBhA-k-1iTJSCD5MeZukyE_M38k/edit?usp=sharing" target="_blank" rel="noreferrer">CV</a>`;
   }
 
   // Socials — inline (about page)
