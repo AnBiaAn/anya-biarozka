@@ -17,7 +17,7 @@ window.siteContent = {
     {
       slug: "pulse-mindfulness",
       title: "Pulse Mindfulness",
-      meta: "UX/UI, Branding",
+      meta: "Product Design, UX/UI, Branding",
       image: "./assets/pulse-homepage.png",
       detailCoverImage: "./assets/pulse-gold-3.png",
       year: "2025–2026",
@@ -59,7 +59,7 @@ window.siteContent = {
     {
       slug: "audi",
       title: "Audi",
-      meta: "UI Introduction for the Brand Appearance - Audi.com",
+      meta: "UI Design, Brand System",
       relatedProjects: ["foormly", "5sinne"],
       introVideo: "./assets/audi-video-1.mp4",
       introVideoLink: { label: "Brand Appearance - Audi.com", href: "https://styleguide.audi.com/document/2865" },
@@ -76,7 +76,7 @@ window.siteContent = {
     {
       slug: "foormly",
       title: "FOORMLY",
-      meta: "Strategy, brand identity, design",
+      meta: "Product Strategy, UX/UI, Branding",
       image: "./assets/foormly-homepage.png",
       detailCoverImage: "./assets/foormly-homepage.png",
       layout: "wide",
@@ -108,7 +108,7 @@ window.siteContent = {
       slug: "5sinne",
       relatedProjects: ["ocah", "pulse-mindfulness"],
       title: "5Sinne",
-      meta: "UX/UI, Interactive",
+      meta: "Brand Identity, Art Direction",
       image: "./assets/ixian-homepage.png",
       detailCoverImage: "./assets/ixian-homepage.png",
       year: "2026",
@@ -132,7 +132,7 @@ window.siteContent = {
     {
       slug: "ocah",
       title: "Onchain Capital Allocation Handbook",
-      meta: "Editorial, Interactive",
+      meta: "Editorial, Generative Design",
       image: "./assets/ocah-cover.png",
       detailCoverImage: "./assets/ocah-cover.png",
       year: "2024–2025",
