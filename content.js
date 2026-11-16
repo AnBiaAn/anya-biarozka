@@ -1,12 +1,12 @@
 window.siteContent = {
-  brand: "Anya Biarozka",
+  brand: "Anya Biaro",
   heroKicker: "I design products, brands and systems for businesses in the age of AI.",
   heroStatement: "Helping startups and established organizations transform complexity into scalable products, meaningful experiences, and lasting impact.",
   workStatement: "Selected Projects",
   clientsLabel: "Clients I've worked with include...",
-  footerDescriptor: "Creative Director & Senior Product Designer\nfor Product, Brand & AI Automation\n| Berlin-Based",
+  footerDescriptor: "Design & Engineering Partner\nfor Founders & Product Teams\n| Berlin-Based",
   mailLabel: "Mail",
-  email: "anya.biarozka@gmail.com",
+  email: "anyabiaro@gmail.com",
   locationOne: "Amsterdam / Berlin",
   locationTwo: "New York",
   images: {
@@ -164,8 +164,8 @@ window.siteContent = {
     { label: "Maison Michel", logo: "./assets/maison-michel-logo.webp", className: "client-logo--maison" }
   ],
   socials: [
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/anya-biarozka-898b9388" },
-    { label: "X", href: "https://x.com/CionaAnoic" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/anyabiaro" },
+    { label: "X", href: "https://x.com/anyabiaro" },
     { label: "Behance", href: "https://www.behance.net/Biarozka" }
   ]
 };
